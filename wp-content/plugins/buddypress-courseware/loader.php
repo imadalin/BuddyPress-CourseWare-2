@@ -43,7 +43,7 @@ function bp_courseware_activate() {
 }
 register_activation_hook( __FILE__, 'bp_courseware_activate' );
 
-/* On deacativation, clean up anything your component has added. This runs if you delete the plugin from the Dashboard!!! */
+/* On deactivation, clean up anything your component has added. This runs if you delete the plugin from the Dashboard!!! */
 function bp_courseware_deactivate() {
 	// @todo improve the cool WordPress way in separate files and prepare the database.
 	// @todo make migration script from old version 0.9.7 based on communities requirements
