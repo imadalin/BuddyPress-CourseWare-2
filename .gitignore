@@ -25,15 +25,6 @@ Session.vim
 *~
 
 
-### SublimeText ###
-# workspace files are user-specific
-*.sublime-workspace
-
-# project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using SublimeText
-# *.sublime-project
-
-
 ### NetBeans ###
 nbproject/private/
 build/
@@ -42,4 +33,9 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+
+
+### KomodoEdit ###
+*.komodoproject
+.komodotools
 
